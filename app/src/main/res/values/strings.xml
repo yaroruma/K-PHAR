@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">capston</string>
+    <string name="distances_settings">DISTANCES SETTINGS</string>
+    <string name="etc_settings">ETC SETTINGS</string>
+    <string name="complete">complete</string>
+    <string name="check">CHECK</string>
+    <string name="KPHAR">K - PHAR</string>
+</resources>

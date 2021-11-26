@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#4DFFFFFF"
+    android:backgroundTintMode="add">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="5">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:text="Distance Settings"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="#7D6FFF"
+                android:textSize="36sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/test"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:adjustViewBounds="true"
+                android:backgroundTint="#00FFFFFF"
+                android:text="TEST"
+                android:textSize="36sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:orientation="horizontal"
+            android:weightSum="5">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:weightSum="4">
+
+                <TextView
+                    android:id="@+id/motor_select"
+                    android:layout_width="match_parent"
+                    android:layout_height="57dp"
+                    android:layout_weight="1"
+                    android:text="NO SELECT"
+                    android:textAlignment="center"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:id="@+id/ccw"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:backgroundTint="#00FFFFFF"
+                    app:srcCompat="@drawable/counterclock" />
+
+            </LinearLayout>
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/arm" />
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:weightSum="5">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <Button
+                            android:id="@+id/button2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="Button"
+                            android:visibility="invisible" />
+
+                        <Button
+                            android:id="@+id/button8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="Button"
+                            android:visibility="invisible" />
+
+                        <Button
+                            android:id="@+id/motor3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:background="#00ff0000"
+                            android:backgroundTint="#00ff0000"
+                            android:clickable="true"
+                            android:text=" "
+                            android:visibility="visible" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:weightSum="4">
+
+                        <Button
+                            android:id="@+id/button10"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:text="Button"
+                            android:visibility="invisible" />
+
+                        <Button
+                            android:id="@+id/button11"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:text="Button"
+                            android:visibility="invisible" />
+
+                        <Button
+                            android:id="@+id/button12"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:text="Button"
+                            android:visibility="invisible" />
+
+                        <Button
+                            android:id="@+id/motor4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="#00ff0000"
+                            android:backgroundTint="#00ff0000"
+                            android:clickable="true"
+                            android:text=" "
+                            android:visibility="visible" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:weightSum="3">
+
+                        <Button
+                            android:id="@+id/motor2"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="#00ff0000"
+                            android:backgroundTint="#00ff0000"
+                            android:clickable="true"
+                            android:text=" "
+                            android:visibility="visible" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:id="@+id/textView8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=" " />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:weightSum="3">
+
+                        <Button
+                            android:id="@+id/motor1"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="#00ff0000"
+                            android:backgroundTint="#00ff0000"
+                            android:clickable="true"
+                            android:hapticFeedbackEnabled="false"
+                            android:text=" "
+                            android:visibility="visible" />
+                    </TableRow>
+                </TableLayout>
+
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:weightSum="4">
+
+                <TextView
+                    android:id="@+id/motor_angle"
+                    android:layout_width="match_parent"
+                    android:layout_height="57dp"
+                    android:layout_weight="1"
+                    android:text="Motor Angle"
+                    android:textAlignment="center"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:id="@+id/cw"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:backgroundTint="#00FFFFFF"
+                    app:srcCompat="@drawable/clock" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

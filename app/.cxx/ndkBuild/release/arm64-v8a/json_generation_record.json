@@ -1,0 +1,68 @@
+[
+  {
+    "level": "INFO",
+    "message": "Start JSON generation. Platform version: 21 min SDK version: arm64-v8a",
+    "file": "D:\\study\\capston\\capston\\app\\src\\main\\jni\\Android.mk",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "rebuilding JSON D:\\study\\capston\\capston\\app\\.cxx\\ndkBuild\\release\\arm64-v8a\\android_gradle_build.json due to:",
+    "file": "D:\\study\\capston\\capston\\app\\src\\main\\jni\\Android.mk",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "- command changed from previous, will remove stale json folder",
+    "file": "D:\\study\\capston\\capston\\app\\src\\main\\jni\\Android.mk",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "- a dependent build file changed",
+    "file": "D:\\study\\capston\\capston\\app\\src\\main\\jni\\Android.mk",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "  - C:\\Users\\ORUMA\\Desktop\\ONGOING\\capston\\app\\src\\main\\jni\\Android.mk",
+    "file": "D:\\study\\capston\\capston\\app\\src\\main\\jni\\Android.mk",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "  - C:\\Users\\ORUMA\\Desktop\\ONGOING\\capston\\app\\src\\main\\jni\\Application.mk",
+    "file": "D:\\study\\capston\\capston\\app\\src\\main\\jni\\Android.mk",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "removing stale contents from \u0027D:\\study\\capston\\capston\\app\\.cxx\\ndkBuild\\release\\arm64-v8a\u0027",
+    "file": "D:\\study\\capston\\capston\\app\\src\\main\\jni\\Android.mk",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "created folder \u0027D:\\study\\capston\\capston\\app\\.cxx\\ndkBuild\\release\\arm64-v8a\u0027",
+    "file": "D:\\study\\capston\\capston\\app\\src\\main\\jni\\Android.mk",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "executing ndkBuild Executable : C:\\Users\\ORUMA\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\ndk-build.cmd\narguments : \nNDK_PROJECT_PATH\u003dnull\nAPP_BUILD_SCRIPT\u003dD:\\study\\capston\\capston\\app\\src\\main\\jni\\Android.mk\nNDK_APPLICATION_MK\u003dD:\\study\\capston\\capston\\app\\src\\main\\jni\\Application.mk\nAPP_ABI\u003darm64-v8a\nNDK_ALL_ABIS\u003darm64-v8a\nNDK_DEBUG\u003d0\nAPP_PLATFORM\u003dandroid-21\nNDK_OUT\u003dD:/study/capston/capston/app/build/intermediates/ndkBuild/release/obj\nNDK_LIBS_OUT\u003dD:\\study\\capston\\capston\\app\\build\\intermediates\\ndkBuild\\release\\lib\nAPP_SHORT_COMMANDS\u003dfalse\nLOCAL_SHORT_COMMANDS\u003dfalse\n-B\n-n\njvmArgs : \n\n",
+    "file": "D:\\study\\capston\\capston\\app\\src\\main\\jni\\Android.mk",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Executable : C:\\Users\\ORUMA\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\ndk-build.cmd\narguments : \nNDK_PROJECT_PATH\u003dnull\nAPP_BUILD_SCRIPT\u003dD:\\study\\capston\\capston\\app\\src\\main\\jni\\Android.mk\nNDK_APPLICATION_MK\u003dD:\\study\\capston\\capston\\app\\src\\main\\jni\\Application.mk\nAPP_ABI\u003darm64-v8a\nNDK_ALL_ABIS\u003darm64-v8a\nNDK_DEBUG\u003d0\nAPP_PLATFORM\u003dandroid-21\nNDK_OUT\u003dD:/study/capston/capston/app/build/intermediates/ndkBuild/release/obj\nNDK_LIBS_OUT\u003dD:\\study\\capston\\capston\\app\\build\\intermediates\\ndkBuild\\release\\lib\nAPP_SHORT_COMMANDS\u003dfalse\nLOCAL_SHORT_COMMANDS\u003dfalse\n-B\n-n\njvmArgs : \n\n",
+    "file": "D:\\study\\capston\\capston\\app\\src\\main\\jni\\Android.mk",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "JSON generation completed with problem. Exception: Build command failed.\nError while executing process C:\\Users\\ORUMA\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\ndk-build.cmd with arguments {NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\study\\capston\\capston\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dD:\\study\\capston\\capston\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dD:/study/capston/capston/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dD:\\study\\capston\\capston\\app\\build\\intermediates\\ndkBuild\\release\\lib APP_SHORT_COMMANDS\u003dfalse LOCAL_SHORT_COMMANDS\u003dfalse -B -n}\n\nD:\\study\\capston\\capston\\app\\src\\main\\jni\\Android.mk:10: C:\\Users\\ORUMA\\Desktop\\ONGOING\\capston\\opencv\\native\\jni\\OpenCV.mk: No such file or directory\nmake: *** No rule to make target \u0027C:\\Users\\ORUMA\\Desktop\\ONGOING\\capston\\opencv\\native\\jni\\OpenCV.mk\u0027.  Stop.\n",
+    "file": "D:\\study\\capston\\capston\\app\\src\\main\\jni\\Android.mk",
+    "tag": "release|arm64-v8a"
+  }
+]
